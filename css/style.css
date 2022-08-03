@@ -268,8 +268,16 @@ header .container .mob-links ul li a:hover {
   grid-template-columns: repeat(auto-fill , minmax(300px,1fr));
   gap: 30px;
 }
-.portfolio-content .col{
+.portfolio-content .col {
   background-color: white;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+  transition: all 0.3s;
+}
+.portfolio-content .col:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
 }
 .portfolio-content .col img{
 width: 100%;

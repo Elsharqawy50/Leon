@@ -1,2 +1,2 @@
-# Project-Html-CSS
-Landing Page designed by using html and css
+## Leon Project
+Landing Page designed by using html and css and javascript

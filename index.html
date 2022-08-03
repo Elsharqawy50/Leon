@@ -13,15 +13,25 @@
       href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" href="image/logo.ico">
-    <title>Project HTML CSS</title>
+    <link rel="icon" href="image/logo.ico" />
+    <title>Leon</title>
   </head>
   <body>
     <!-- header -->
     <header>
       <div class="container">
         <div class="logo"><img src="image/logo.png" alt="logo" /></div>
-        <div class="links">
+        <!-- Desktop Navbar -->
+        <div class="Desktop-links">
+          <ul>
+            <li><a href="#services">services</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </div>
+        <!-- Mobile Navbar -->
+        <div class="mob-links">
           <i class="fa-solid fa-bars"></i>
           <ul>
             <li><a href="#services">services</a></li>
@@ -232,8 +242,17 @@
     <!-- contact -->
     <!-- footer -->
     <div class="footer">
-      <p>© 2021 <span>Leon</span> All Right Reserved</p>
+      <p>
+        © <span class="copyright"></span> <span>Leon</span> All Right Reserved |
+        Designed By Abdelrahman Mohamed.
+      </p>
     </div>
     <!-- footer -->
+    <!-- top scroll button -->
+    <div class="topButton">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <!-- top scroll button -->
+    <script src="js/main.js"></script>
   </body>
 </html>

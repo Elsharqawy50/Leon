@@ -124,7 +124,8 @@ header .container .mob-links ul li a:hover {
 /* landing */
 .landing {
   background-image: url(../image/landing.jpg) ;
-  background-attachment: scroll;
+  background-attachment: fixed;
+  background-position: center;
   background-size: cover;
   height: calc(100vh - 64px);
   display: flex;
